@@ -1,0 +1,11 @@
+sample_id,molecule_h5,time
+sample1a,/home/labs/cbrooke_lab/LizT/et02b04/et02b04/et02b04_fastq/Project_Booke_10X/pool_1/outs/per_sample_outs/sample1/count/sample_molecule_info.h5,0hr
+sample1b,/home/labs/cbrooke_lab/LizT/et02b04/et02b04/et02b04_fastq/Project_Booke_10X/pool_3/outs/per_sample_outs/sample1/count/sample_molecule_info.h5,0hr
+sample3a,/home/labs/cbrooke_lab/LizT/et02b04/et02b04/et02b04_fastq/Project_Booke_10X/pool_1/outs/per_sample_outs/sample3/count/sample_molecule_info.h5,4hr
+sample3b,/home/labs/cbrooke_lab/LizT/et02b04/et02b04/et02b04_fastq/Project_Booke_10X/pool_2/outs/per_sample_outs/sample3/count/sample_molecule_info.h5,4hr
+sample4a,/home/labs/cbrooke_lab/LizT/et02b04/et02b04/et02b04_fastq/Project_Booke_10X/pool_2/outs/per_sample_outs/sample4/count/sample_molecule_info.h5,8hr
+sample4b,/home/labs/cbrooke_lab/LizT/et02b04/et02b04/et02b04_fastq/Project_Booke_10X/pool_3/outs/per_sample_outs/sample4/count/sample_molecule_info.h5,8hr
+sample5a,/home/labs/cbrooke_lab/LizT/et02b04/et02b04/et02b04_fastq/Project_Booke_10X/pool_2/outs/per_sample_outs/sample5/count/sample_molecule_info.h5,12hr
+sample5b,/home/labs/cbrooke_lab/LizT/et02b04/et02b04/et02b04_fastq/Project_Booke_10X/pool_3/outs/per_sample_outs/sample5/count/sample_molecule_info.h5,12hr
+sample2a,/home/labs/cbrooke_lab/LizT/et02b04/et02b04/et02b04_fastq/Project_Booke_10X/pool_1/outs/per_sample_outs/sample2/count/sample_molecule_info.h5,16hr
+sample2b,/home/labs/cbrooke_lab/LizT/et02b04/et02b04/et02b04_fastq/Project_Booke_10X/pool_3/outs/per_sample_outs/sample2/count/sample_molecule_info.h5,16hr

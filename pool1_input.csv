@@ -1,0 +1,14 @@
+[gene-expression]
+reference,/home/a-m/ethayer3/et02b04/et02b04_fastq/Project_Booke_10X/refdata-gex-GRCh38-2020-A
+probe-set,/home/apps/software/cellranger/7.1.0/probe_sets/Chromium_Human_Transcriptome_Probe_Set_v1.0.1_GRCh38-2020-A.csv
+no-bam,true
+
+[libraries]
+fastq_id,fastqs,feature_types
+Pool1,/home/a-m/ethayer3/et02b04/et02b04_fastq/Project_Booke_10X/Sample_Pool1,Gene Expression
+
+[samples]
+sample_id,probe_barcode_ids,description
+sample1,BC001,Sample1
+sample2,BC002,Sample2
+sample3,BC003,Sample3

@@ -18,4 +18,42 @@ Raw reads were demultiplexed using bcl-convert v4.1.7 Conversion Software (Illum
   - Script: aggr_timepoints_092424.bash
 
 ## scRNA-seq Analysis Requiring a Supercomputer
-### Script ...
+### et02b04_initialanalysis_12.12.25.R
+This script performs:\
+:white_check_mark: Initial upload of the .h5 file and processing including normalization and transformation\
+:white_check_mark: Saving the .rds file after processing and export of most data to a .csv to bypass the time-consuming steps\
+:white_check_mark: Upload the supplemantary file, barcodes_umap_probabilities_info.csv, and join the two csv files for further analysis\
+:white_check_mark: More data reconfiguration to then perform the Mann-Whitney analysis to find top geneswhose expression influences the probability of transitioning to Terminal 1\
+:white_check_mark: Cutoff determination and data visualization to make sense of the distributions
+### Requirements
+**R (v4.5.2)**
+- Seurat (v5.3.1)
+- dittoSeq (v1.22.0)
+- tidyverse (v2.0.0)
+- sctransform (v0.4.2)
+- glmGamPoi (v1.22.0)
+- DropletUtils (v1.30.0)
+- simpleSingleCell (v1.34.0)
+- scater (v1.38.0)
+- scran (v1.38.0)
+- BiocSingular (v1.26.0)
+- magrittr (v2.0.4)
+- dplyr (v1.1.4)
+- ggplot2 (v4.0.1)
+- ggrepel (v0.9.6)
+- data.table (v1.17.8)
+
+## scRNA-seq Analysis Post-Export as a Smaller Datafile (_no need for supercomputer_)
+
+
+
+
+
+
+
+
+
+
+
+
+

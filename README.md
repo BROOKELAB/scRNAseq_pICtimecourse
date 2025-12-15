@@ -1,5 +1,5 @@
 # scRNAseq_pICtimecourse
-_scRNA-seq experiment of A549 cells either unstimulated with pIC or stimulated with pIC for 4, 8, 12, or 16 hours._
+_scRNA-seq experiment of A549 cells either unstimulated with pIC or stimulated with pIC for 4, 8, 12, or 16 hours._\
 Scripts associated with the ATAC-seq data in Single-cell heterogeneity in interferon induction potential is heritable and governed by variation in cell state, Thayer et al. (2025).
 
 ## Overview
@@ -44,16 +44,28 @@ This script performs:\
 - data.table (v1.17.8)
 
 ## scRNA-seq Analysis Post-Export as a Smaller Datafile (_no need for supercomputer_)
-
-
-
-
-
-
-
-
-
-
+### et02b04_moreanalysis_12.15.25.R
+This script performs:\
+:white_check_mark: Initial upload of the all4000genes_12.8.25.csv anf barcodes_umap_probabilities_info.csv\
+:white_check_mark: Looking at the cells with 100% probability of ending up at each terminal and plotting the percentage positive for _IFNL1_\
+:white_check_mark: Compares the gene expressions of low- and high-terminal 1 probabilty cells at 0hrs\
+### Requirements
+**R (v4.5.2)**
+- Seurat (v5.3.1)
+- dittoSeq (v1.22.0)
+- tidyverse (v2.0.0)
+- sctransform (v0.4.2)
+- glmGamPoi (v1.22.0)
+- DropletUtils (v1.30.0)
+- simpleSingleCell (v1.34.0)
+- scater (v1.38.0)
+- scran (v1.38.0)
+- BiocSingular (v1.26.0)
+- magrittr (v2.0.4)
+- dplyr (v1.1.4)
+- ggplot2 (v4.0.1)
+- ggrepel (v0.9.6)
+- data.table (v1.17.8)
 
 
 

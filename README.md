@@ -48,7 +48,7 @@ This script performs:\
 This script performs:\
 :white_check_mark: Initial upload of the all4000genes_12.8.25.csv anf barcodes_umap_probabilities_info.csv\
 :white_check_mark: Looking at the cells with 100% probability of ending up at each terminal and plotting the percentage positive for _IFNL1_\
-:white_check_mark: Compares the gene expressions of low- and high-terminal 1 probabilty cells at 0hrs\
+:white_check_mark: Compares the gene expressions of low- and high-terminal 1 probabilty cells at 0hrs
 ### Requirements
 **R (v4.5.2)**
 - Seurat (v5.3.1)
